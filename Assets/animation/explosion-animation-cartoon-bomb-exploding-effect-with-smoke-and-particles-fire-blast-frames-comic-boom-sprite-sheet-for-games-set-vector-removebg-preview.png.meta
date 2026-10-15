@@ -1,0 +1,316 @@
+fileFormatVersion: 2
+guid: 0af976db80d568a4f83af6b9239ea211
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: explosion-animation-cartoon-bomb-exploding-effect-with-smoke-and-particles-fire-blast-frames-comic-boom-sprite-sheet-for-games-set-vector-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 48
+        width: 129
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3a946843be97d46a2cef6fd93fbddf
+      internalID: -1795165091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-animation-cartoon-bomb-exploding-effect-with-smoke-and-particles-fire-blast-frames-comic-boom-sprite-sheet-for-games-set-vector-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 239
+        width: 91
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fddd9ee91d539f4f909e1c8b9b705ae
+      internalID: 1430551573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-animation-cartoon-bomb-exploding-effect-with-smoke-and-particles-fire-blast-frames-comic-boom-sprite-sheet-for-games-set-vector-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 196
+        width: 159
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074d8e32ceed5f24788c997543d08e20
+      internalID: -1683838309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-animation-cartoon-bomb-exploding-effect-with-smoke-and-particles-fire-blast-frames-comic-boom-sprite-sheet-for-games-set-vector-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 202
+        width: 166
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cdb87d42554267418d8015b088e1dc3
+      internalID: 2026773845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-animation-cartoon-bomb-exploding-effect-with-smoke-and-particles-fire-blast-frames-comic-boom-sprite-sheet-for-games-set-vector-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 207
+        width: 136
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b864e4bfb1d4a42b6fb4b40b2e9f44
+      internalID: -467473181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-animation-cartoon-bomb-exploding-effect-with-smoke-and-particles-fire-blast-frames-comic-boom-sprite-sheet-for-games-set-vector-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 49
+        width: 121
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2bd8d09c2401b544ae4f51bd2d5892f
+      internalID: -606066068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-animation-cartoon-bomb-exploding-effect-with-smoke-and-particles-fire-blast-frames-comic-boom-sprite-sheet-for-games-set-vector-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 53
+        width: 119
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd7c05e9d8290f49bb56c3f64b65daf
+      internalID: -2108245904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-animation-cartoon-bomb-exploding-effect-with-smoke-and-particles-fire-blast-frames-comic-boom-sprite-sheet-for-games-set-vector-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 64
+        width: 88
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3797e9de69b224491111f790a88b26
+      internalID: -1634438448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      explosion-animation-cartoon-bomb-exploding-effect-with-smoke-and-particles-fire-blast-frames-comic-boom-sprite-sheet-for-games-set-vector-removebg-preview_0: 1858741201
+      explosion-animation-cartoon-bomb-exploding-effect-with-smoke-and-particles-fire-blast-frames-comic-boom-sprite-sheet-for-games-set-vector-removebg-preview_1: 1523634843
+      explosion-animation-cartoon-bomb-exploding-effect-with-smoke-and-particles-fire-blast-frames-comic-boom-sprite-sheet-for-games-set-vector-removebg-preview_2: 2085803239
+      explosion-animation-cartoon-bomb-exploding-effect-with-smoke-and-particles-fire-blast-frames-comic-boom-sprite-sheet-for-games-set-vector-removebg-preview_3: 1101646952
+      explosion-animation-cartoon-bomb-exploding-effect-with-smoke-and-particles-fire-blast-frames-comic-boom-sprite-sheet-for-games-set-vector-removebg-preview_4: 56101439
+      explosion-animation-cartoon-bomb-exploding-effect-with-smoke-and-particles-fire-blast-frames-comic-boom-sprite-sheet-for-games-set-vector-removebg-preview_5: 1741946927
+      explosion-animation-cartoon-bomb-exploding-effect-with-smoke-and-particles-fire-blast-frames-comic-boom-sprite-sheet-for-games-set-vector-removebg-preview_6: -1197040531
+      explosion-animation-cartoon-bomb-exploding-effect-with-smoke-and-particles-fire-blast-frames-comic-boom-sprite-sheet-for-games-set-vector-removebg-preview_7: -221078867
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
