@@ -6,6 +6,7 @@ public class Health : MonoBehaviour
 {
     public GameObject explosionPrefab;
     public int defaultHealthPoint;
+    public System.Action onDead;
     private int healthPoint;
 
     private void Awake()
@@ -26,6 +27,7 @@ public class Health : MonoBehaviour
         var explosion = Instantiate(explosionPrefab, transform.position, transform.rotation);
         Destroy(explosion, 1);
         Destroy(gameObject);
+        onDead?.Invoke();
     }
     // Start is called before the first frame update
    
