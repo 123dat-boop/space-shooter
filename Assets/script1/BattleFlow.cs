@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class BattleFlow : MonoBehaviour
 {
     public GameObject gameOverUI;
     public GameObject gameWinUI;
     public PlayerHealth playerHealth;
     public GameObject bgMusic;
+    public void ReturnToMainMenu() => SceneManager.LoadScene("MainMenu");
     // Start is called before the first frame update
     void Start()
     {
@@ -36,4 +37,5 @@ public class BattleFlow : MonoBehaviour
         bgMusic.SetActive(false);
         playerHealth.gameObject.SetActive(false);
     }
+     
 }
