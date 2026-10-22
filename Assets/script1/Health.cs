@@ -7,17 +7,19 @@ public class Health : MonoBehaviour
     public GameObject explosionPrefab;
     public int defaultHealthPoint;
     public System.Action onDead;
-    private int healthPoint;
-
+    public int healthPoint;
+    public System.Action onHealthChanged;
+    
     private void Awake()
     {
         healthPoint = defaultHealthPoint;
     }
-    private void Start() => healthPoint = defaultHealthPoint;
+    
     public void TakeDamage(int damage)
     {
         if (healthPoint <= 0) return;
         healthPoint -= damage;
+        onHealthChanged?.Invoke();
         Debug.Log(gameObject.name + "HP con lai: " + healthPoint);
         if (healthPoint <= 0) Die();
     }
@@ -30,7 +32,11 @@ public class Health : MonoBehaviour
         onDead?.Invoke();
     }
     // Start is called before the first frame update
-   
+    private void Start()
+    {
+        healthPoint = defaultHealthPoint;
+        onHealthChanged?.Invoke();
+    }
     // Update is called once per frame
     void Update()
     {
